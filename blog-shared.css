@@ -76,7 +76,7 @@ button { cursor: pointer; }
   max-width: 1000px;
   margin: 18px auto 12px;
   font-size: clamp(40px, 7vw, 74px);
-  line-height: .98;
+  line-height: .48;
   letter-spacing: -.055em;
 }
 .blog-hero p { max-width: 700px; margin: 0 auto; color: var(--blog-muted); font-size: clamp(16px, 2vw, 20px); }
