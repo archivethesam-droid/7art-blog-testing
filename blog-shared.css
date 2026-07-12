@@ -73,7 +73,7 @@ button { cursor: pointer; }
   text-align: center;
 }
 .blog-hero h1 {
-  max-width: 850px;
+  max-width: 1000px;
   margin: 18px auto 12px;
   font-size: clamp(40px, 7vw, 74px);
   line-height: .98;
