@@ -11,8 +11,6 @@ backend:
     delete: "Delete blog post: {{slug}}"
     uploadMedia: "Upload blog image: {{path}}"
     deleteMedia: "Delete blog image: {{path}}"
-
-local_backend: true
 publish_mode: editorial_workflow
 site_url: http://localhost:3000
 display_url: http://localhost:3000
