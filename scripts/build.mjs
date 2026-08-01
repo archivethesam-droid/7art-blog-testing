@@ -193,6 +193,7 @@ function renderBlogIndex(posts) {
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/global-navbar.css">
   <link rel="stylesheet" href="/blog-shared.css">
+  <link rel="stylesheet" href="/lead-popup.css?v=2">
   <script type="application/ld+json">${safeJson(itemList)}</script>
 </head>
 <body class="blog-index-page">
@@ -234,6 +235,7 @@ function renderBlogIndex(posts) {
   ${footer('/')}
   <script src="/global-navbar.js"></script>
   <script src="/blog.js"></script>
+  <script src="/lead-popup.js?v=2"></script>
 </body>
 </html>`;
 }
@@ -297,6 +299,7 @@ function renderArticle(post, posts) {
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/global-navbar.css">
   <link rel="stylesheet" href="/blog-shared.css">
+  <link rel="stylesheet" href="/lead-popup.css?v=2">
   <script type="application/ld+json">${safeJson(schema)}</script>
 </head>
 <body class="article-page">
@@ -320,6 +323,7 @@ function renderArticle(post, posts) {
   </main>
   ${footer('/')}
   <script src="/global-navbar.js"></script>
+  <script src="/lead-popup.js?v=2"></script>
 </body>
 </html>`;
 }
